@@ -1,0 +1,35 @@
+/* headingss by default are block element */
+h1 {
+    background-color: aquamarine;
+    border: 1px solid black;
+    display: inline;
+
+    /*but u can change it*/
+}
+
+
+/*span are inline elements*/
+/* span {
+    background-color: azure;
+    border: 1px solid black;
+    display: block;
+} */
+span {
+    /* background-color: palevioletred; */
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    /* for inline elements width and height are ignored*/
+    padding: 100px;
+    margin: 50px;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 5px solid blue;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 50%;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More input methods</title>
+</head>
+
+<body>
+    <h1>MORE INPUTS:</h1>
+    <p>
+    <h2>Single checkbox</h2>
+    <form action="\wherever">
+        <input type="checkbox" id="agree">
+        <label for="agree">i agree to the terms and conditions.</label>
+    </form>
+    </p>
+    <p>
+        <hr>
+    <h2>Multiple checkbox</h2>
+    <form action="/wherever">
+        <label>
+            <input type="checkbox" name="chicken">
+            chicken
+        </label><br>
+        <label>
+            <input type="checkbox" name="mutton">
+            mutton
+        </label><br>
+        <label>
+            <input type="checkbox" name="fish">
+            fish
+        </label><br>
+        <label>
+            <input type="checkbox" name="turkey">
+            turkey
+        </label><br>
+        <button>submit</button>
+    </form>
+    </p>
+    <p>
+        <hr>
+    <h2>Radio button</h2>
+    <form action="/whatever">
+        <input type="radio" name="food" id="chicken" value="chicken"><label for="chicken">chicken</label><br>
+        <input type="radio" name=food id="mutton" value="mutton"><label for="mutton">mutton</label><br>
+        <input type="radio" name=food id="fish" value="fish"><label for="fish">fish</label><br>
+        <input type="radio" name=food id="turkey" value="turkey"><label for="turkey">turkey</label><br>
+        <button>submit</button>
+        <!--value will be sent on pressing button-->
+    </form>
+    </p>
+    <p>
+        <hr>
+    <h2>Select</h2>
+    <form action="/fuckoff">
+        <label for="food">choose a type of food</label>
+        <select name="food" id="food">
+            <option value="">choose</option>
+            <option value="chicken">chicken</option>
+            <option value="mutton">mutton</option>
+            <!--"selected" will already select that one but u can always change it-->
+            <option value="fishs">fishs</option>
+            <option value="turkey">turkey</option>
+        </select>
+        <br><button>submit</button>
+    </form>
+    </p>
+    <p>
+        <hr>
+    <h2>Range</h2>
+    <form action="/aaaa">
+        <label for="number">select range</label>
+        <input type="range" name="numberofchicken" id="number" min="0" max="99" value="20" step="10"><br>
+        <button>submit</button>
+    </form>
+    </p>
+    <p>
+        <hr>
+    <h2>Text Area</h2>
+    <form action="/no way">
+        <label for="area">Enter text here:</label><br>
+        <textarea id="area" rows="10" cols="40" placeholder="type here" name="text"></textarea><br>
+        <button>submit</button>
+    </form>
+    </p>
+    <p>
+        <hr>
+    <h2>Required attribute</h2>
+    <form action="/aintnoway">
+        <label for="blank">can leave it blank and submit</label>
+        <input type="text" id="blank">
+        <button>submit</button><br>
+
+    </form>
+    <form action="/aintnoway">
+
+
+        <label for="blank">cannot leave it blank and submit</label>
+        <input type="text" id="blank" required name="name"><button>submit</button><br>
+    </form>
+    </p>
+</body>
+
+</html>

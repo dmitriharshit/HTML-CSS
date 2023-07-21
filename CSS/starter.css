@@ -1,0 +1,131 @@
+/* Universal sselector */
+/* * {
+    background-color: cyan;
+} */
+
+
+/*elemnt selector(s)*/
+body {
+    background-color: azure;
+}
+
+button {
+    background-color: antiquewhite;
+}
+
+span {
+    color: gold;
+}
+
+
+
+/* combine multiple selector */
+h1,
+h2 {
+    color: magenta;
+}
+
+
+/* ID slector */
+#signup {
+    /*just the signup button*/
+    background-color: blue;
+    color: white;
+}
+
+
+/*Class selctor*/
+.tag {
+    background-color: brown;
+    color: beige;
+    font-size: 16px;
+}
+
+
+/*descendent tag*/
+.pass a {
+    color: black;
+    text-decoration: none;
+}
+
+li a {
+    color: chartreuse;
+}
+
+
+/*adjacent selector*/
+input+button {
+    background-color: pink;
+}
+
+h2+button {
+    background-color: magenta;
+}
+
+
+/*Direct child selector*/
+footer>a {
+    color: lightslategrey
+}
+
+
+/*Attribute selector*/
+input[type="password"] {
+    color: aquamarine;
+}
+
+a[href*="google"] {
+    color: tomato;
+}
+
+
+/*pseudo classes
+:active
+:checked
+:first
+:first-child
+:hover
+:not()
+:nth-child()
+:nth-of-type()*/
+.pass button:hover {
+    background-color: brown;
+}
+
+.pass a:hover {
+    text-decoration: underline;
+}
+
+.pass button:active {
+    background-color: rgb(27, 216, 216);
+}
+
+.pass:nth-of-type(2n) {
+    background-color: rgb(166, 206, 206);
+}
+
+
+/*psedo elementss
+::after
+::before
+::first-letter
+::first-line
+::selection*/
+h2::first-letter {
+    color: red;
+    font-size: 40px;
+}
+
+p::first-line {
+    color: blue;
+}
+
+p::selection {
+    background-color: goldenrod;
+}
+
+
+/*!important*/
+/* button {
+    background-color: blueviolet !important;
+} */

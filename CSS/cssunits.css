@@ -1,0 +1,22 @@
+section {
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+}
+
+div {
+    width: 50%;
+    height: 50%;
+    background-color: rgb(212, 85, 21);
+}
+
+h2 {
+    font-size: 2em;
+    /*twice the parent font size which is article in this case*/
+    margin: 1em;
+    /*for margin 1em is relative to font size of h2*/
+}
+
+article {
+    font-size: 20px;
+}

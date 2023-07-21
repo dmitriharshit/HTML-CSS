@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms demo</title>
+</head>
+
+<body>
+    <h1>FORMS:</h1>
+    <form action="">
+        <label for="text">enter text</label>
+        <input id="text" type="text" placeholder="text">
+        <br><br>
+        <label for="password">enter pasword</label>
+        <input id="password" type="password" placeholder="password">
+        <br><br>
+        <label for="color">enter colour</label>
+        <input id="color" type="color">
+        <br><br>
+        <label for="month">enter month</label>
+        <input id="month" type="month">
+        <br><br>
+        <label for="number">enter number</label>
+        <input id="number" type="number" placeholder="number" min="1" max="100" valu="5" step="1">
+        <br><br>
+        <label for="range">enter range</label>
+        <input id="range" type="range">
+        <br><br>
+        <!-- better mthod: -->
+        <label>enter time
+            <input type="time">
+        </label>
+        <br><br>
+        <label for="checkbox">enter checkbox</label>
+        <input id="checkbox" type="checkbox">
+        <br><br>
+        <label for="button">enter button</label>
+        <input id="button" type="button">
+        <br><br>
+        <label for="date">enter date</label>
+        <input id="date" type="date">
+        <br><br>
+        <label>it submits
+            <button>submit</button>
+        </label>
+        <br><br>
+        <label>it doesnt submits
+            <button type="button">submit</button>
+        </label>
+        <br><br>
+        <!-- button using input -->
+        <input type="submit" value="submit using input">
+    </form>
+</body>
+
+</html>

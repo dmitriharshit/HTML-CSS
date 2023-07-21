@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+    font-weight: 400;
+    text-decoration: blue underline wavy;
+    letter-spacing: 2px;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*comma indicates a backup font i.e., if that one is not present in the browsser it will choosse the next one*/
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 2;
+    /* line-height: 0.5; */
+
+}

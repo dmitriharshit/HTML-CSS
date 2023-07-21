@@ -1,0 +1,14 @@
+img {
+    /* margin: 1.66%; */
+    margin: calc(10%/6);
+    width: 30%;
+    height: 40%;
+}
+
+nav {
+    border-bottom: 2px solid red;
+    width: 30%;
+    margin-left: calc(10%/6);
+    padding: 20px 0;
+    font-family: 'Raleway', sans-serif;
+}
